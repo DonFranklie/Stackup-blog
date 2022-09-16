@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Barlow Condensed", Arial;
+}
+
+body {
+  background-color: #2193b0;
+}
+
 .campaign-boxes, .campaigns .campaign {
   background-color: rgba(255, 255, 255, 0.5);
   width: 450px;
@@ -60,18 +72,6 @@
 }
 .campaigns .campaign:hover {
   transform: translateY(-10px);
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-family: "Barlow Condensed", Arial;
-}
-
-body {
-  background-color: #2193b0;
 }
 
 .logo {

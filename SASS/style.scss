@@ -1,5 +1,4 @@
 @import 'variables';
-@import 'campaigns';
 
 *{
     box-sizing: border-box;
@@ -12,6 +11,8 @@
 body{
 	background-color: #2193b0;
 }
+
+@import 'campaigns';
 
 .logo{
 	margin: 10px;
