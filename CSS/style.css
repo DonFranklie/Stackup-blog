@@ -1,0 +1,87 @@
+.campaign-boxes, .campaigns .campaign {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 450px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.campaigns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.campaigns p {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+.campaigns img {
+  border-radius: 5px;
+}
+.campaigns .campaign {
+  transition: all 0.4s ease;
+}
+.campaigns .campaign .image-rep {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.campaigns .campaign .image-rep .title {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 22px;
+}
+.campaigns .campaign .down-text {
+  position: relative;
+}
+.campaigns .campaign .down-text .dates {
+  margin-top: 9px;
+}
+.campaigns .campaign .down-text .view-btn {
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  background-color: #cc2b5e;
+  padding: 6px 35px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+  transition: all 0.4s;
+}
+.campaigns .campaign .down-text .view-btn:hover {
+  color: black;
+}
+.campaigns .campaign:hover {
+  box-shadow: 3px 5px 32px rgba(255, 255, 255, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Barlow Condensed", Arial;
+}
+
+body {
+  background-color: #2193b0;
+}
+
+.logo {
+  margin: 10px;
+}
+.logo img {
+  width: 190px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
